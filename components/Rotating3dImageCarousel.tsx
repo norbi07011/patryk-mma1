@@ -27,9 +27,9 @@ const Rotating3dImageCarousel: React.FC<Rotating3dImageCarouselProps> = ({ image
   
   const getTranslateZ = () => {
     if (typeof window !== 'undefined' && window.innerWidth < 768) {
-      return 150; 
+      return 300; // Zwiększone z 150 na 300 dla mobile
     }
-    return 280; 
+    return 500; // Zwiększone z 280 na 500 dla desktop
   }
   
   const [translateZ, setTranslateZ] = useState(getTranslateZ());
