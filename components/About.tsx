@@ -52,7 +52,7 @@ const About: React.FC = () => {
         <div className="relative">
             <div className="container mx-auto px-4 mb-20">
                 <div className="max-w-3xl mx-auto bg-white/10 dark:bg-black/20 backdrop-blur-sm p-8 rounded-lg shadow-2xl">
-                  <img src="/images/poznaj-mnie.jpg" alt="Patryk Kulpa" className="rounded-full w-40 h-40 mx-auto mb-6 border-4 border-neon-yellow shadow-lg shadow-neon-yellow/20"/>
+                  <img src="/images/Zdjęcie profilowe .jpg" alt="Patryk Kulpa" className="rounded-full w-40 h-40 mx-auto mb-6 border-4 border-neon-yellow shadow-lg shadow-neon-yellow/20"/>
                   <h3 className="text-3xl font-bold text-center text-white">{t('about.bio_title')}</h3>
                   <p className="text-center text-neon-yellow mb-4">{t('about.bio_subtitle')}</p>
                   <p className="text-gray-200 text-justify">
