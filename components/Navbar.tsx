@@ -27,9 +27,14 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-gray-800 dark:text-white">
-              <div className="flex flex-col items-center justify-center font-hooligan leading-tight">
-                  <span className="text-lg tracking-widest">PATRYK</span>
-                  <span className="text-xl text-red-600 dark:text-red-500">MMA</span>
+              <div className="flex items-center space-x-4">
+                <div className="text-sm font-semibold text-neon-yellow tracking-wider">
+                  TRENER PERSONALNY
+                </div>
+                <div className="flex flex-col items-center justify-center font-hooligan leading-tight">
+                    <span className="text-lg tracking-widest">PATRYK</span>
+                    <span className="text-xl text-red-600 dark:text-red-500">MMA</span>
+                </div>
               </div>
             </Link>
           </div>
